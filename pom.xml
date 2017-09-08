@@ -5,8 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>libs.126yun.com</groupId>
-    <artifactId>common-utils</artifactId>
+    <artifactId>common-libs</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>common-utils</module>
+        <module>http-interface</module>
+        <module>socket-interface</module>
+        <module>kafka-interface</module>
+        <module>redis-interface</module>
+        <module>spark-interface</module>
+        <module>exception-interface</module>
+        <module>protocol-interface</module>
+        <module>json-interface</module>
+    </modules>
 
 
 </project>
